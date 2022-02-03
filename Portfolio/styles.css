@@ -1,0 +1,111 @@
+.body{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;  
+}
+
+
+.header{
+    background-color: #02999E;
+    border-color: black;
+    font-size: 20px; 
+    display: flex;
+
+}
+
+
+.logo-sesion{
+    display: inline-flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+   
+
+}
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.header ul li{
+    display: inline-block;
+    
+}
+
+.header ul li a{
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    transition: all 0.4s linear;   
+
+}
+
+.header ul li a:hover{
+    background-color: #00EB87;
+    color: rgb(26, 28, 29);
+}
+
+.logo{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container-fluid{
+    border-style: double;
+    border-bottom: #00EB87;
+    border: #00EB87;
+}
+
+.card{
+    border-radius: 60%;
+    margin-left: 4rem;
+    padding: 1rem;
+    
+}
+.card-img-top{
+    border-radius: 40%;
+    border-color: #00EB87;
+}
+
+.myself-card{
+    border-color: #00EB87;
+}
+
+.card-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    font-style: oblique;
+    color: rgb(43, 42, 42);
+}
+
+.card-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10pt;
+}
+
+.card-descrip{
+    font-size: 11pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.formation{
+    margin: 4em;
+    padding: 8em;
+    border:  #02999E ;
+    border-style: solid;
+    border-radius: 20%;
+    border-left: 20px;
+    border-right: 20px;
+}
