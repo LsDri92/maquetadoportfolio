@@ -109,3 +109,29 @@
     border-left: 20px;
     border-right: 20px;
 }
+
+
+.btn-edit{
+    color: black;
+    size: 20pt;
+    display: inline-block;
+    
+}
+
+.btn-right{
+    float: right;
+}
+
+.proyect-box{
+    margin: 20px;
+    padding: 10px 10px;
+    width: 150px;
+    height: 80px;
+    border-radius: 20%;
+    border-style: solid;
+    border: orangered;
+}
+
+.footer{
+    background-color: #02999E;
+}
