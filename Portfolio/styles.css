@@ -69,25 +69,31 @@
 }
 
 .card{
-    border-radius: 60%;
-    margin-left: 4rem;
+   
+    margin: 2rem;
     padding: 1rem;
     
+    
+}
+.container-card{
+    border-color: black;
+    border-style: double;
+    background-color:black;
+    width: auto;
+    display: flexbox;
 }
 .card-img-top{
     border-radius: 40%;
     border-color: #00EB87;
 }
 
-.myself-card{
-    border-color: #00EB87;
-}
 
 .card-title{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14pt;
     font-style: oblique;
     color: rgb(43, 42, 42);
+    align-content: flex-start;
 }
 
 .card-text{
@@ -99,7 +105,18 @@
     font-size: 11pt;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.h2{
+    padding: 10px;
+    margin: 8px;
+}
 
+.formation ul li{
+   
+    margin: 5px;
+    padding: 5px;
+    font-size: 12pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .formation{
     margin: 4em;
     padding: 8em;
@@ -108,4 +125,38 @@
     border-radius: 20%;
     border-left: 20px;
     border-right: 20px;
+}
+
+
+.btn-edit{
+    color: black;
+    size: 25pt;
+    display: inline-block;
+    
+}
+
+.btn-right{
+    float: right;
+    padding: 5px;
+}
+
+
+
+.proyect-box{
+    margin: 20px;
+    padding: 10px 10px;
+    width: 150px;
+    height: 80px;
+    border-radius: 20%;
+    border-style: solid;
+    border: orangered;
+}
+
+.footer{
+    margin: 0px;
+    padding: 10px 10px;
+    background-color: #02999E;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
