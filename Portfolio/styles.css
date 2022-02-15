@@ -68,23 +68,42 @@
     border: #00EB87;
 }
 
+.sobremi{
+    font-size: 14pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-justify: newspaper;
+    border:#02999E;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 12%;
+}
+
 .card{
-   
     margin: 2rem;
     padding: 1rem;
-    
-    
 }
-.container-card{
-    border-color: black;
+
+.presentacion{
+    background-image: url(5125962.jpg);
+   padding: 14pt;
+    border: #02999E;
     border-style: double;
-    background-color:black;
-    width: auto;
-    display: flexbox;
+    border-width: 3pt;
+}
+
+
+.myCard{  
+    padding: 2pt;
+    margin: 2pt;
+}
+
+.card-body{
+    margin: 3pt;
+    padding: 3pt;
 }
 .card-img-top{
     border-radius: 40%;
-    border-color: #00EB87;
+    border-color: #00EB87;  
 }
 
 
@@ -92,19 +111,17 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14pt;
     font-style: oblique;
-    color: rgb(43, 42, 42);
-    align-content: flex-start;
+    color: rgb(0, 0, 0);  
 }
 
 .card-text{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 10pt;
+    font-family: Arial;
+    font-size: 10pt;   
+    color: orangered;
 }
 
-.card-descrip{
-    font-size: 11pt;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+
+
 .h2{
     padding: 10px;
     margin: 8px;
@@ -132,14 +149,12 @@
     color: black;
     size: 25pt;
     display: inline-block;
-    
 }
 
 .btn-right{
     float: right;
     padding: 5px;
 }
-
 
 
 .proyect-box{
